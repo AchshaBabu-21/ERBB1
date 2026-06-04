@@ -1,11 +1,24 @@
-# ERBB1
-Identification of Novel EGFR (ErbB1) Inhibitors through Machine Learning approach
+# Identification of Novel EGFR (ErbB1) Inhibitors through Machine Learning Approach
 
-Target: EGFR erbB1 (CHEMBL203)
+This repository contains the code used for the manuscript "Identification of Novel EGFR (ErbB1) Inhibitors through Machine Learning Approach".
+
+Data Source:
+
+ChEMBL Target ID: CHEMBL203
 
 Workflow:
-1. Data retrieval from ChEMBL
-2. Molecular descriptor generation using PaDEL
-3. Feature selection using VarianceThreshold
-4. Machine learning model development
-5. Prediction of pIC50 values
+
+1. Retrieval of EGFR erbB1 bioactivity data from ChEMBL
+2. Data preprocessing and pIC50 calculation
+3. Molecular descriptor generation using PaDEL-Descriptor
+4. Feature selection using VarianceThreshold
+5. Machine learning model development and evaluation
+
+Software:
+
+Python
+RDKit
+PaDEL-Descriptor
+Scikit-learn
+
+Author: Achsha Babu
