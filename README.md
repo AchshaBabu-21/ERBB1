@@ -21,4 +21,7 @@ RDKit
 PaDEL-Descriptor
 Scikit-learn
 
-Author: Achsha Babu
+The code provided in this repository allows reproduction of the analyses described in the manuscript.
+
+GitHub Repository:
+https://github.com/AchshaBabu-21/ERBB1
